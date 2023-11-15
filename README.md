@@ -42,7 +42,7 @@ Atualmente, devido a imaturidade na área de dados, estes dados são recebidos a
 Os dados da empresa são armazenados no S3 da AWS, conta com o modelo entidade relacionamento dos dados, conforme o esquema abaixo.
 
 <p align="center">
-  <img width="600" height="300" src="Imagens/Metadados Catalogo de dados.png">
+  <img width="600" height="300" src="[Imagens/Metadados Catalogo de dados.png](https://github.com/Rafael-Salomao/DataLake---Hackathon-Pod-Bank/blob/b065e162cbdfce79c26a67687a7e15c8e3d98f54/Imagens/Metadados%20Catalogo%20de%20dados.png)">
 </p>
  
 # 4. Arquitetura dos Dados
