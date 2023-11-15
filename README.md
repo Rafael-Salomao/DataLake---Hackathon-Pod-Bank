@@ -42,7 +42,7 @@ Atualmente, devido a imaturidade na área de dados, estes dados são recebidos a
 Os dados da empresa são armazenados no S3 da AWS, conta com o modelo entidade relacionamento dos dados, conforme o esquema abaixo.
 
 <p align="center">
-  <img width="600" height="300" src="Imagens/Arquitetura de Dados – Fluxo dos dados.PNG">
+  <img width="600" height="300" src="Imagens/Modelo Entidade Relacionamento Dados.png">
 </p>
  
 # 4. Arquitetura dos Dados
