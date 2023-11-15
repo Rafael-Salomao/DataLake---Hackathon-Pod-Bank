@@ -42,7 +42,7 @@ Atualmente, devido a imaturidade na área de dados, estes dados são recebidos a
 Os dados da empresa são armazenados no S3 da AWS, conta com o modelo entidade relacionamento dos dados, conforme o esquema abaixo.
 
 <p align="center">
-  <img width="600" height="300" src="Modelo Entidade Relacionamento Dados.png">
+  <img width="600" height="300" src="Imagens/Metadados Catalogo de dados.png">
 </p>
  
 # 4. Arquitetura dos Dados
@@ -52,7 +52,7 @@ Os dados da empresa são armazenados no S3 da AWS, conta com o modelo entidade r
 Para a resolução do problema, foi construído uma estrutura de Data Lake, conforme arquitetura abaixo:
 
 <p align="center">
-  <img width="600" height="300" src="Arquitetura de Dados – Fluxo dos dados.PNG">
+  <img width="600" height="300" src="Imagens/Arquitetura de Dados – Fluxo dos dados.PNG">
 </p>
  
 Para entender o funcionamento da arquitetura é preciso entender os pontos a seguir.
@@ -82,7 +82,7 @@ Outro fator relevante durante as transformações mencionadas é a estruturaçã
 ### 4.1.3 Consumo dos Dados
 
 <p align="center">
-  <img width="600" height="400" src="Dashboard – Visualização indicadores de BI.png">
+  <img width="600" height="400" src="Imagens/Dashboard – Visualização indicadores de BI.png">
 </p>
 
 A disponibilização dos dados no Data Lake é planejada para atender às necessidades de diferentes tipos de usuários. Os dados provenientes da camada "trusted", juntamente com os indicadores refinados da camada "refined", estão prontos para consulta pelos times de negócio. Esses dados são disponibilizados de maneira acessível por meio de dashboard, gráficos e tabelas no Amazon QuickSight, permitindo que os membros da equipe de negócios, sem conhecimento de programação, realizem consultas e análises de forma eficiente e intuitiva.
@@ -157,7 +157,7 @@ Para cada tabela e indicador gerado, são mantidos metadados que fornecem inform
 Essa formalização e documentação possibilita, aos usuários, a capacidade de explorar os dados com maior profundidade e confiança. É possível, facilmente acessar informações sobre a origem dos dados, entender como cada indicador de negócios foi construído e interpretar as tabelas de forma que a informação se encontra centralizada nestes documentos. Excelente para manter a governança e credibilidade nos dados.
 
 <p align="center">
-  <img width="600" height="300" src="Metadados Catalogo de dados.png">
+  <img width="600" height="300" src="Imagens/Metadados Catalogo de dados.png">
 </p>
  
 # 8. Manutenção e Monitoramento
